@@ -84,34 +84,6 @@ path: PA9/Timer A2 -> U11 -> `CHE2` -> UCC27511 IN+, and PA10/Timer B1 -> U11
 active-high inhibit for both drivers, not an ADC measurement input. `GPIO_1`
 makes PA5 the MP9486 DIM/EN request. No V15/PGOOD feedback returns to the MCU.
 
-## Synchronous half-bridge daughterboard
-
-Source: `hardware/netlists/Netlist_同步半桥小板_2026-08-28.net`.
-
-| H1 pin | Net | Actual function |
-|---:|---|---|
-| 1 | `PWM_A` | UCC21550 INA through 100 ohm |
-| 2 | `3V3` | Logic supply |
-| 3 | `PWM_B` | UCC21550 INB through 100 ohm |
-| 4 | `GND` | Logic return |
-| 5 | `EN` | UCC21550 `DIS` through 10 ohm; 10 kohm pull-up to 3V3 |
-| 6 | `V15` | Driver-side low-channel supply input |
-
-The net name `EN` is misleading. Because it drives `DIS`, high means both
-outputs disabled and low permits operation. The pull-up therefore gives the
-correct fail-safe default. RDT=10 kohm and the schematic's
-`tDT(ns)=8.6*RDT(kohm)+13` relation imply about 99 ns of driver dead time.
-
-The supplied files do not show how two daughterboards connect their `PWM_A`,
-`PWM_B` and `DIS` pins to CHE1/CHE2/CHF1/CHF2 and the safety logic. That mapping
-must be supplied or continuity-tested before firmware arming.
-
-## 2026-08-14 netlist
-
-`Netlist_旧版功率板_2026-08-14.net` contains the older UCC27624/comparator power
-stage and mostly numeric connector nets. It is not a current control-board
-netlist and cannot prove the 2026-08-28 daughterboard routing.
-
 ## Evidence boundary
 
 The supplied files now prove the control-board side, the complete U11

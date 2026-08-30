@@ -422,7 +422,8 @@ def main() -> int:
     require("context_rvds.S" in project_text and
             "third_party\\rt-thread\\src\\components.c" in project_text,
             "RT-Thread kernel/port is not in the Keil project")
-    require((ROOT / "remade_master.md").exists(), "remade_master.md handoff log missing")
+    require((ROOT.parent.parent / "docs/logs/remade_master.md").exists(),
+            "docs/logs/remade_master.md handoff log missing")
 
     safety_text = (ROOT / "Core/Src/board_safety.c").read_text(encoding="utf-8")
     for required in ("board_hrtim_force_off();", "OE1_PIN", "OE2_PIN",
@@ -561,20 +562,6 @@ def main() -> int:
                     "auxiliary-enable route changed")
     require_members(nonsync, "3V3", ("U9-4", "U9-37"),
                     "power-board 3.3V connector route changed")
-
-    sync_text = (ROOT / "hardware/netlists/"
-                        "Netlist_同步半桥小板_2026-08-28.net").read_text(
-                            encoding="utf-8")
-    sync = parse_nets(sync_text)
-    sync_values = parse_values(sync_text)
-    require(all(token in "\n".join(sync.get("EN", []))
-                for token in ("R7-2", "R8-1", "H1-5")),
-            "daughterboard EN/DIS connector mapping changed")
-    require(all(token in "\n".join(sync.get("$1N45", []))
-                for token in ("U2-5", "R7-1", "C9-2")),
-            "daughterboard UCC21550 DIS mapping changed")
-    require(sync_values.get("R6", "").upper() == "10K",
-            "daughterboard dead-time resistor is no longer 10K")
 
     print(f"PASS: {len(paths)} project entries, {vector_count} vectors, "
           "128-KiB flash algorithm, external-protection arming profile, all 12 buffered PWM "

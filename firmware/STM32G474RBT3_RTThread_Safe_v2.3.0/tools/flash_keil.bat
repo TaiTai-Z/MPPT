@@ -3,7 +3,7 @@ setlocal
 chcp 65001 >nul
 set "PROJECT=%~dp0..\STM32G474_RTThread.uvprojx"
 set "LOG=%~dp0..\Out\keil_flash.log"
-set "HISTORY=%~dp0..\remade_master.md"
+set "HISTORY=%~dp0..\..\..\docs\logs\remade_master.md"
 if defined KEIL_UV4 set "UV4=%KEIL_UV4%"
 if not defined UV4 if exist "D:\Keil\Keil\UV4\UV4.exe" set "UV4=D:\Keil\Keil\UV4\UV4.exe"
 if not defined UV4 if exist "C:\Keil_v5\UV4\UV4.exe" set "UV4=C:\Keil_v5\UV4\UV4.exe"
