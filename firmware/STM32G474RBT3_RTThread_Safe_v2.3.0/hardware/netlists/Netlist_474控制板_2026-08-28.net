@@ -1,0 +1,3185 @@
+PROTEL NETLIST 2.0
+[
+DESIGNATOR
+U3
+FOOTPRINT
+LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL
+PARTTYPE
+STM32G474RET3
+DESCRIPTION
+CPU内核:ARM-M系列;CPU最大主频:170MHz;应用领域:-;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+STM32G474RET3
+Designator
+U3
+Device
+STM32G474RET3
+Unique ID
+gge1
+Name
+STM32G474RBT3
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer Part
+STM32G474RBT3
+LCSC Part Name
+带DSP和FPU的170MHz主流ARM Cortex-M4 MCU，具有512 KB Flash存储器、数学加速器、高分辨率定时器和高模拟电平集成
+Supplier Part
+C1236669
+Manufacturer
+ST(意法半导体)
+Supplier Footprint
+LQFP-64(10x10)
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20210601/070C5CED5EB45737871E6667B39F1293.pdf
+Supplier
+LCSC
+3D Model Title
+LQFP-64_L10.0-W10.0-H1.4-LS12.0-P0.50
+CPU Core
+ARM-M系列
+CPU Maximum Speed
+170MHz
+Program Storage Size
+512KB
+Program Memory Type
+FLASH
+Number of I/O
+52
+ADC (Bit)
+12bit
+DAC (Bit)
+12bit
+Low Voltage Detection Threshold
+1.71V~3.6V
+Application Area
+-
+Description
+CPU内核:ARM-M系列;CPU最大主频:170MHz;应用领域:-;
+
+*
+]
+[
+DESIGNATOR
+U1
+FOOTPRINT
+SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL
+PARTTYPE
+W25Q128JVSIQ_C113767
+DESCRIPTION
+接口类型:SPI;存储容量:-;时钟频率(fc):133MHz;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+W25Q128JVSIQ
+Designator
+U1
+Device
+W25Q128JVSIQ_C113767
+Unique ID
+gge2
+Name
+W25Q128JVSIQ
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+支持双路/四路SPI接口的3V、128Mbit 串行闪存
+Supplier Part
+C113767
+Manufacturer
+Winbond(华邦)
+Manufacturer Part
+W25Q128JVSIQ
+Supplier Footprint
+SOIC-8-208mil
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/W25Q128JVSIQ/115003.html
+Supplier
+LCSC
+3D Model Title
+SOIC-8_L5.3-W5.3-H1.9-LS7.9-P1.27
+Interface
+SPI
+Memory Size
+-
+Clock Frequency
+133MHz
+Voltage - Supply
+2.7V~3.6V
+Program / Erase Cycles
+100000次
+Page Programming Time (Tpp)
+3ms
+Operating Temperature
+-
+Description
+接口类型:SPI;存储容量:-;时钟频率(fc):133MHz;
+
+*
+]
+[
+DESIGNATOR
+U2
+FOOTPRINT
+SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
+PARTTYPE
+VTI7064MSME
+DESCRIPTION
+存储容量:64Mbit;工作电压:2.7V~3.3V;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+VTI7064MSME
+Designator
+U2
+Device
+VTI7064MSME
+Unique ID
+gge3
+Name
+VTI7064MSME
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+64Mbit 串行 SRAM
+Supplier Part
+C139966
+Manufacturer
+Vilsion
+Manufacturer Part
+VTI7064MSME
+Supplier Footprint
+SOIC-8
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/VTI7064MSME/151292.html
+Supplier
+LCSC
+3D Model Title
+SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27
+Interface
+SPI
+Memory Size
+64Mbit
+Voltage - Supply
+2.7V~3.3V
+Access Time
+7ns
+Operating Temperature
+-25℃~+85℃
+Supply Current (Icc)
+25mA
+Standby Current (Iq)
+50uA
+Features
+-
+Description
+存储容量:64Mbit;工作电压:2.7V~3.3V;
+
+*
+]
+[
+DESIGNATOR
+R1
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R1
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge4
+Name
+10K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+10K
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R2
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R2
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge5
+Name
+10K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+10K
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C1
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C1
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge6
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C2
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C2
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge7
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R3
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R3
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge8
+Name
+10K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+10K
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R4
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R4
+Symbol
+电阻
+Device
+Res_0603
+Name
+10K
+Unique ID
+gge9
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+10K
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+U4
+FOOTPRINT
+MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL
+PARTTYPE
+CH340E
+DESCRIPTION
+应用功能:收发器;USB协议版本:USB 2.0;数据速率:2Mbps;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CH340E
+Designator
+U4
+Device
+CH340E
+Unique ID
+gge10
+Name
+CH340E
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+USB转串口芯片CH340
+Supplier Part
+C99652
+Manufacturer
+WCH(南京沁恒)
+Manufacturer Part
+CH340E
+Supplier Footprint
+MSOP-10
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/CH340E/100866.html
+Supplier
+LCSC
+3D Model Title
+MSOP-10_L3.0-W3.0-H1.1-LS5.0-P0.50
+Applications Function
+收发器
+USB Protocol
+USB 2.0
+Voltage - Supply
+3.3V；5V
+Data Rate
+2Mbps
+Current - Supply
+20mA
+Supply Current (Iq)
+150uA
+Description
+应用功能:收发器;USB协议版本:USB 2.0;数据速率:2Mbps;
+
+*
+]
+[
+DESIGNATOR
+USB1
+FOOTPRINT
+USB-C-SMD_TYPE-C-16PIN-2MD-073
+PARTTYPE
+TYPE-C 16PIN 2MD(073)
+DESCRIPTION
+连接器类型:Type-C;协议标准:-;公母:母;安装方式:卧贴;触点数量:16P;端口数量:1;额定电流 - 电源:3A;工作温度:-25℃~+85℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TYPE-C 16PIN 2MD(073)
+Designator
+USB1
+Device
+TYPE-C 16PIN 2MD(073)
+Unique ID
+gge11
+Name
+TYPE-C 16PIN 2MD(073)
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Comment
+P+N-
+LCSC Part Name
+Type-C 母 卧贴
+Supplier Part
+C2765186
+Manufacturer
+SHOU HAN(首韩)
+Manufacturer Part
+TYPE-C 16PIN 2MD(073)
+Supplier Footprint
+SMD
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/TYPE-C%252016PIN%25202MD(073)/2901843.html
+Supplier
+LCSC
+3D Model Title
+USB-C-SMD_TYPE-C-6PIN-2MD-073
+Connector Type
+Type-C
+Protocol Standard
+-
+Gender
+母
+Mounting Type
+卧贴
+Number of Contacts
+16P
+Number of Ports
+1
+Current Rating-Power
+3A
+Voltage Rating
+5V
+Connect-Disconnect Life
+1万次
+Supplementary Features
+-
+Center Height
+-
+Length
+-
+Detection color
+黑色
+Operating Temperature
+-25℃~+85℃
+Description
+连接器类型:Type-C;协议标准:-;公母:母;安装方式:卧贴;触点数量:16P;端口数量:1;额定电流 - 电源:3A;工作温度:-25℃~+85℃;
+
+*
+]
+[
+DESIGNATOR
+C3
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C3
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge12
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C4
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C4
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge13
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R5
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R5
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge14
+Name
+10K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+10K
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R6
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R6
+Symbol
+电阻
+Device
+Res_0603
+Name
+10K
+Unique ID
+gge15
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+10K
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R7
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R7
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge16
+Name
+5.1K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Value
+5.1K
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R8
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R8
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge17
+Name
+5.1K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Value
+5.1K
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R9
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R9
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge18
+Name
+51Ω
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Value
+51Ω
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R10
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R10
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge19
+Name
+51Ω
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Value
+51Ω
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R11
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R11
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge20
+Name
+4.7K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Value
+4.7K
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+SW1
+FOOTPRINT
+SW-SMD_L4.0-W2.9-LS5.0
+PARTTYPE
+HX 3x4x2-2P-2.5N
+DESCRIPTION
+电路结构:单刀单掷;按钮形状:圆形按钮;作用力:2.5N;安装方式:立贴;开关长度:4mm;开关宽度:3mm;开关高度:2mm;带支架:不带支架;触点电流:50mA;额定电压:12V;带灯:无;工作寿命:10万次;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+HX TS-1088-AR02016
+Designator
+SW1
+Device
+HX 3x4x2-2P-2.5N
+Unique ID
+gge21
+Name
+HX 3x4x2-2P-2.5N
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+4*3*2mm 立贴 轻触开关
+Supplier Part
+C36498961
+Manufacturer
+hanxia(韩下)
+Manufacturer Part
+HX 3x4x2-2P-2.5N
+Supplier Footprint
+SMD,3x4mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/HX%25203x4x2-2P-2.5N/38220903.html
+Supplier
+LCSC
+3D Model Title
+SW-SMD_L4.0-W2.9-H2-LS5.0
+Circuit
+单刀单掷
+Actuator Style
+圆形按钮
+Operating Force
+2.5N
+Mounting Type
+立贴
+Length
+4mm
+Width
+3mm
+Switch Height
+2mm
+with Bracket
+不带支架
+Contact Current
+50mA
+Voltage Rating
+12V
+Actuator/Cap Color
+黑色
+With Lamp
+无
+IP Rating
+-
+Termination Style
+SMD接片
+Life
+10万次
+Operating Temperature
+-
+Description
+电路结构:单刀单掷;按钮形状:圆形按钮;作用力:2.5N;安装方式:立贴;开关长度:4mm;开关宽度:3mm;开关高度:2mm;带支架:不带支架;触点电流:50mA;额定电压:12V;带灯:无;工作寿命:10万次;
+
+*
+]
+[
+DESIGNATOR
+C5
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C5
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge22
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Value
+100nF
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+LED1
+FOOTPRINT
+LED-SMD_4P-L2.2-W2.0-P1.00_WS2815C-2020-4P
+PARTTYPE
+WS2812B-2020-V6
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+WS2812B-2020-V6
+Designator
+LED1
+Device
+WS2812B-2020-V6
+Unique ID
+gge23
+Name
+WS2812B-2020-V6
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+智能外控集成LED光源，内置信号整形和复位电路，支持单线通讯，颜色一致性好
+Supplier Part
+C52917434
+Manufacturer
+worldsemi
+Manufacturer Part
+WS2812B-2020-V6
+Supplier Footprint
+SMD2020-4P
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/WS2812B-2020-V6/55827425.html
+Supplier
+LCSC
+Features
+内置上电复位电路；集成智能反向连接保护功能；内置掉电复位电路
+Transmission Delay
+300ns
+Rise Time
+-
+Fall Time
+120us
+Description
+
+
+*
+]
+[
+DESIGNATOR
+U5
+FOOTPRINT
+SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR
+PARTTYPE
+XC6206P332MR_C347376
+DESCRIPTION
+输出极性:正极;工作电压:8V;输出电压:3.3V;输出电流:250mA;电源纹波抑制比(PSRR):40dB@(1kHz);输出类型:固定;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+XC6206P332MR_C347376
+Designator
+U5
+Device
+XC6206P332MR_C347376
+Unique ID
+gge24
+Name
+XC6206P332MR
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+3.3V 250mA 8V
+Supplier Part
+C347376
+Manufacturer
+UMW(友台半导体)
+Manufacturer Part
+XC6206P332MR
+Supplier Footprint
+SOT-23
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/XC6206P332MR/324036.html
+Supplier
+LCSC
+3D Model Title
+SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95
+Output Configuration
+正极
+Voltage - Supply
+8V
+Output Voltage
+3.3V
+Output Current
+250mA
+Power Supply Rejection Ratio (PSRR)
+40dB@(1kHz)
+Voltage Dropout
+240mV@(50mA)
+standby current
+7uA
+Noise
+-
+Features
+过流保护；短路保护
+Operating Temperature
+-25℃~+80℃@(Ta)
+Output Type
+固定
+Number of Outputs
+1
+Description
+输出极性:正极;工作电压:8V;输出电压:3.3V;输出电流:250mA;电源纹波抑制比(PSRR):40dB@(1kHz);输出类型:固定;
+
+*
+]
+[
+DESIGNATOR
+C6
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C6
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge25
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C7
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C7
+Symbol
+Capacitance
+Device
+CAP_0603
+Name
+100nF
+Unique ID
+gge26
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+U6
+FOOTPRINT
+直贴2*20P主控焊盘
+PARTTYPE
+直贴2*20P主控焊盘
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+U6
+Symbol
+直贴2*20P主控焊盘
+Device
+直贴2*20P主控焊盘
+Unique ID
+gge4_0
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+侧边贴片2_20P
+Description
+
+
+*
+]
+[
+DESIGNATOR
+U11
+FOOTPRINT
+TSSOP-48_L12.5-W6.1-P0.50-LS8.1-BL
+PARTTYPE
+SN74LVC16244ADGGR
+DESCRIPTION
+输入类型:-;工作电压:1.65V~3.6V;元件数:4;每个元件位数:4;灌电流(IOL):24mA;拉电流(IOH):24mA;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+SN74LVC16244ADGGR
+Designator
+U11
+Device
+SN74LVC16244ADGGR
+Unique ID
+gge27
+Name
+SN74LVC16244ADGGR
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+三态输出，16位缓冲器/驱动器
+Supplier Part
+C7822
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+SN74LVC16244ADGGR
+Supplier Footprint
+TSSOP-48-6.1mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://www.ti.com/cn/lit/gpn/sn74lvc16244a
+Supplier
+LCSC
+3D Model Title
+HTSSOP-48_L12.5-W6.1-H1.2-LS8.2-P0.50
+Input type
+-
+output type
+三态
+Voltage - Supply
+1.65V~3.6V
+Number of Elements
+4
+Number of Bits per Element
+4
+Channel Type
+单向
+Current - Output Low(IOL)
+24mA
+Current - Output High(IOH)
+24mA
+Logic Family
+74LVC
+Operating Temperature
+-40℃~+125℃
+Quiescent Current
+20uA
+Propagation Delay
+4.1ns@3.3V,50pF
+Description
+输入类型:-;工作电压:1.65V~3.6V;元件数:4;每个元件位数:4;灌电流(IOL):24mA;拉电流(IOH):24mA;
+
+*
+]
+[
+DESIGNATOR
+R12
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R12
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge28
+Name
+10K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+10K
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R13
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R13
+Symbol
+电阻
+Device
+Res_0603
+Name
+10K
+Unique ID
+gge29
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+10K
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R14
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R14
+Symbol
+电阻
+Device
+Res_0603
+Name
+10K
+Unique ID
+gge30
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+10K
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+R15
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R15
+Symbol
+电阻
+Device
+Res_0603
+Name
+10K
+Unique ID
+gge31
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+10K
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+X1
+FOOTPRINT
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+PARTTYPE
+TAXM8M4RDBCCT2T
+DESCRIPTION
+晶振类型:贴片晶振;频率:8MHz;常温频差:±10ppm;负载电容:10pF;频率稳定度:±15ppm;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TAXM8M4RDBCCT2T
+Designator
+X1
+Device
+TAXM8M4RDBCCT2T
+Unique ID
+gge32
+Name
+8MHz
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+8MHz ±10ppm 10pF
+Supplier Part
+C400090
+Manufacturer
+YJX(雅晶鑫)
+Manufacturer Part
+TAXM8M4RDBCCT2T
+Supplier Footprint
+SMD3225-4P
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/TAXM8M4RDBCCT2T/383475.html
+Supplier
+LCSC
+3D Model Title
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+Type
+贴片晶振
+Value
+8MHz
+Normal temperature Frequency Tolerance
+±10ppm
+Load Capacitance
+10pF
+Frequency Stability
+±15ppm
+Equivalent Series Resistance(ESR)
+250Ω
+Operating Temperature
+-40℃~+85℃
+Description
+晶振类型:贴片晶振;频率:8MHz;常温频差:±10ppm;负载电容:10pF;频率稳定度:±15ppm;
+
+*
+]
+[
+DESIGNATOR
+C8
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C8
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge33
+Name
+12pF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Value
+12pF
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+C9
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C9
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge34
+Name
+12pF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Value
+12pF
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+
+*
+]
+[
+DESIGNATOR
+U12
+FOOTPRINT
+CONN-TH_5P-P2.50_HC-XH-5AW-TW
+PARTTYPE
+HC-XH-5AW-TW
+DESCRIPTION
+插针结构:1x5P;间距:2.5mm;安装方式:弯插;参考系列:XH;总PIN数:5P;排数:1;每排PIN数:5;行距:-;额定电流:3A;触头材质:铜;触头镀层:锡;工作温度:-25℃~+85℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+HC-XH-5AW-TW
+Designator
+U12
+Device
+HC-XH-5AW-TW
+Unique ID
+gge57
+Name
+HC-XH-5AW-TW
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+白色 1x5P 间距:2.5mm 弯插 系列:XH 插件铜
+Supplier Part
+C19273776
+Manufacturer
+HC(虹成电子)
+Manufacturer Part
+HC-XH-5AW-TW
+Supplier Footprint
+弯插,P=2.5mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/HC-XH-5AW-TW/20558326.html
+Supplier
+LCSC
+3D Model Title
+CONN-TH_5P-P2.50_HC-XH-5AW-TW
+Pins Structure
+1x5P
+Pitch
+2.5mm
+Mounting Type
+弯插
+Reference Series
+XH
+Number of Pins
+5P
+Number of Rows
+1
+Number of PINs Per Row
+5
+Row Spacing
+-
+Current Rating
+3A
+Contact Material
+铜
+Contact Plating
+锡
+Operating Temperature
+-25℃~+85℃
+Voltage Rating
+250V
+Plastic Material
+PA66
+Flame Retardant Rating
+-
+Supplementary Features
+-
+Color
+白色
+Z-Height of the Board
+5.8mm
+X-Length of Bottom Edge on Board (Spacing Line)
+15mm
+Y-Width of Bottom Edge on Board
+7mm
+Description
+插针结构:1x5P;间距:2.5mm;安装方式:弯插;参考系列:XH;总PIN数:5P;排数:1;每排PIN数:5;行距:-;额定电流:3A;触头材质:铜;触头镀层:锡;工作温度:-25℃~+85℃;
+
+*
+]
+[
+DESIGNATOR
+U20
+FOOTPRINT
+固定孔
+PARTTYPE
+固定孔
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+U20
+Symbol
+固定孔
+Device
+固定孔
+Unique ID
+gge142
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+
+Description
+
+
+*
+]
+[
+DESIGNATOR
+U21
+FOOTPRINT
+固定孔
+PARTTYPE
+固定孔
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+U21
+Symbol
+固定孔
+Device
+固定孔
+Unique ID
+gge143
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+
+Description
+
+
+*
+]
+[
+DESIGNATOR
+U22
+FOOTPRINT
+固定孔
+PARTTYPE
+固定孔
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+U22
+Symbol
+固定孔
+Device
+固定孔
+Unique ID
+gge144
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+
+Description
+
+
+*
+]
+[
+DESIGNATOR
+U23
+FOOTPRINT
+固定孔
+PARTTYPE
+固定孔
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+U23
+Symbol
+固定孔
+Device
+固定孔
+Unique ID
+gge145
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+3D Model Title
+
+Description
+
+
+*
+]
+[
+DESIGNATOR
+C11
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C11
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge147
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Name
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C12
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C12
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge148
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Name
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C13
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C13
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge149
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Name
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C14
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C14
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge150
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Name
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R16
+FOOTPRINT
+Z_R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R16
+Symbol
+电阻
+Device
+Res_0603
+Unique ID
+gge152
+Supplier Footprint
+0603
+3D Model Title
+R0603
+Value
+0Ω
+Name
+0Ω
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C16
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C16
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge153
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+100nF
+Name
+100nF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C15
+FOOTPRINT
+Z_C0603
+PARTTYPE
+CAP_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+C15
+Symbol
+Capacitance
+Device
+CAP_0603
+Unique ID
+gge154
+Supplier Footprint
+0603
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+1uF
+Name
+1uF
+Description
+
+Sim Model
+
+Sim Model Title
+
+Sim Model Path
+
+NGSpice Model
+
+NGSpice Model Title
+
+NGspice Model Path
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+(
+V3.3 
+U3-64 STM32G474RET3-VDD Passive 
+U3-48 STM32G474RET3-VDD Passive 
+U3-32 STM32G474RET3-VDD Passive 
+U3-16 STM32G474RET3-VDD Passive 
+U3-1 STM32G474RET3-VBAT Passive 
+U1-8 W25Q128JVSIQ_C113767-VCC Passive 
+U2-8 VTI7064MSME-VDD Passive 
+C1-2 CAP_0603-2 Input   
+C2-2 CAP_0603-2 Input   
+R3-2 Res_0603-2 Input   
+R4-2 Res_0603-2 Input   
+R5-2 Res_0603-2 Input   
+R6-2 Res_0603-2 Input   
+U5-2 XC6206P332MR_C347376-VOUT Passive 
+C6-2 CAP_0603-2 Input   
+U6-19 直贴2*20P主控焊盘-19 Passive 
+U6-39 直贴2*20P主控焊盘-39 Passive 
+U11-7 SN74LVC16244ADGGR-VCC Passive 
+U11-18 SN74LVC16244ADGGR-VCC Passive 
+U11-26 SN74LVC16244ADGGR-4A4 Passive 
+U11-27 SN74LVC16244ADGGR-4A3 Passive 
+U11-29 SN74LVC16244ADGGR-4A2 Passive 
+U11-30 SN74LVC16244ADGGR-4A1 Passive 
+U11-31 SN74LVC16244ADGGR-VCC Passive 
+U11-42 SN74LVC16244ADGGR-VCC Passive 
+R12-2 Res_0603-2 Input   
+R13-2 Res_0603-2 Input   
+R14-2 Res_0603-2 Input   
+R15-2 Res_0603-2 Input   
+U12-1 HC-XH-5AW-TW-1 Passive 
+C11-2 CAP_0603-2 Input   
+C12-2 CAP_0603-2 Input   
+C13-2 CAP_0603-2 Input   
+C14-2 CAP_0603-2 Input   
+R16-1 Res_0603-1 Input   
+)
+(
+GND 
+U3-63 STM32G474RET3-VSS Passive 
+U3-47 STM32G474RET3-VSS Passive 
+U3-31 STM32G474RET3-VSS Passive 
+U3-27 STM32G474RET3-VSSA Passive 
+U3-15 STM32G474RET3-VSS Passive 
+U1-4 W25Q128JVSIQ_C113767-GND Passive 
+U2-4 VTI7064MSME-VSS Passive 
+R1-1 Res_0603-1 Input   
+R2-2 Res_0603-2 Input   
+C1-1 CAP_0603-1 Input   
+C2-1 CAP_0603-1 Input   
+U4-3 CH340E-GND Passive 
+USB1-A1B12 TYPE-C 16PIN 2MD(073)-GND Passive 
+USB1-B1A12 TYPE-C 16PIN 2MD(073)-GND Passive 
+C3-1 CAP_0603-1 Input   
+C4-2 CAP_0603-2 Input   
+R7-1 Res_0603-1 Input   
+R8-1 Res_0603-1 Input   
+R11-1 Res_0603-1 Input   
+SW1-1 HX 3x4x2-2P-2.5N-1 Passive 
+C5-1 CAP_0603-1 Input   
+LED1-2 WS2812B-2020-V6-GND Passive 
+U5-1 XC6206P332MR_C347376-VSS Passive 
+C6-1 CAP_0603-1 Input   
+C7-2 CAP_0603-2 Input   
+U6-1 直贴2*20P主控焊盘-1 Passive 
+U6-20 直贴2*20P主控焊盘-20 Passive 
+U6-21 直贴2*20P主控焊盘-21 Passive 
+U6-40 直贴2*20P主控焊盘-40 Passive 
+U11-4 SN74LVC16244ADGGR-GND Passive 
+U11-10 SN74LVC16244ADGGR-GND Passive 
+U11-15 SN74LVC16244ADGGR-GND Passive 
+U11-21 SN74LVC16244ADGGR-GND Passive 
+U11-28 SN74LVC16244ADGGR-GND Passive 
+U11-34 SN74LVC16244ADGGR-GND Passive 
+U11-39 SN74LVC16244ADGGR-GND Passive 
+U11-45 SN74LVC16244ADGGR-GND Passive 
+X1-4 TAXM8M4RDBCCT2T-4 Input   
+X1-2 TAXM8M4RDBCCT2T-2 Input   
+C8-1 CAP_0603-1 Input   
+C9-1 CAP_0603-1 Input   
+U12-2 HC-XH-5AW-TW-2 Passive 
+C11-1 CAP_0603-1 Input   
+C12-1 CAP_0603-1 Input   
+C13-1 CAP_0603-1 Input   
+C14-1 CAP_0603-1 Input   
+C16-1 CAP_0603-1 Input   
+C15-1 CAP_0603-1 Input   
+)
+(
+SPI_CS_FLASH 
+U3-62 STM32G474RET3-PB9 EEV5/FDCAN/I2C/USART/COMP2_OUT Passive 
+U1-1 W25Q128JVSIQ_C113767-CS# Passive 
+R5-1 Res_0603-1 Input   
+)
+(
+BOOT0 
+U3-61 STM32G474RET3-PB8-BOOT0 Passive 
+R11-2 Res_0603-2 Input   
+)
+(
+MCU_RX 
+U3-60 STM32G474RET3-PB7 UART_RX Passive 
+U4-8 CH340E-TXD Passive 
+)
+(
+MCU_TX 
+U3-59 STM32G474RET3-PB6 UART_TX Passive 
+U4-9 CH340E-RXD Passive 
+)
+(
+SPI_MOSI 
+U3-58 STM32G474RET3-PB5 SPI1/3_MOSI Passive 
+U1-5 W25Q128JVSIQ_C113767-DI(IO0) Passive 
+U2-5 VTI7064MSME-SI/SIO0 Passive 
+)
+(
+SPI_MISO 
+U3-57 STM32G474RET3-PB4 SPI1/3_MISO Passive 
+U1-2 W25Q128JVSIQ_C113767-DO(IO1) Passive 
+U2-2 VTI7064MSME-SO/SIO1 Passive 
+)
+(
+SPI_SCK 
+U3-56 STM32G474RET3-PB3 SPI1/3_SCK Passive 
+U1-6 W25Q128JVSIQ_C113767-CLK Passive 
+U2-6 VTI7064MSME-SCLK Passive 
+)
+(
+SPI_CS_SRAM 
+U3-55 STM32G474RET3-PD2 SRAM_CS Passive 
+U2-1 VTI7064MSME-#CE Passive 
+R6-1 Res_0603-1 Input   
+)
+(
+EEV_1 
+U3-54 STM32G474RET3-PC12 EEV1 Passive 
+U6-18 直贴2*20P主控焊盘-18 Passive 
+)
+(
+EEV_2 
+U3-53 STM32G474RET3-PC11 EEV2 Passive 
+U6-17 直贴2*20P主控焊盘-17 Passive 
+)
+(
+FLT_6 
+U3-52 STM32G474RET3-PC10 FLT6 Passive 
+U6-16 直贴2*20P主控焊盘-16 Passive 
+)
+(
+FLT_2 
+U3-51 STM32G474RET3-PA15 FLT2 Passive 
+U6-15 直贴2*20P主控焊盘-15 Passive 
+)
+(
+$1N61 
+U3-50 STM32G474RET3-PA14 SWCLK Passive 
+R10-1 Res_0603-1 Input   
+)
+(
+$1N60 
+U3-49 STM32G474RET3-PA13 SWDIO Passive 
+R9-1 Res_0603-1 Input   
+)
+(
+FLT_1 
+U3-46 STM32G474RET3-PA12 FLT1 Passive 
+U6-14 直贴2*20P主控焊盘-14 Passive 
+)
+(
+MCU_CHF2 
+U3-45 STM32G474RET3-PA11 CHB2 Passive 
+U11-32 SN74LVC16244ADGGR-3A4 Passive 
+)
+(
+MCU_CHF1 
+U3-44 STM32G474RET3-PA10 CHB1 Passive 
+U11-33 SN74LVC16244ADGGR-3A3 Passive 
+)
+(
+MCU_CHE2 
+U3-43 STM32G474RET3-PA9 CHA2 Passive 
+U11-35 SN74LVC16244ADGGR-3A2 Passive 
+)
+(
+MCU_CHE1 
+U3-42 STM32G474RET3-PA8  CHA1 Passive 
+U11-36 SN74LVC16244ADGGR-3A1 Passive 
+)
+(
+MCU_CHD2 
+U3-41 STM32G474RET3-PC9 CHE2 Passive 
+U11-37 SN74LVC16244ADGGR-2A4 Passive 
+)
+(
+MCU_CHD1 
+U3-40 STM32G474RET3-PC8 CHE1 Passive 
+U11-38 SN74LVC16244ADGGR-2A3 Passive 
+)
+(
+MCU_CHC2 
+U3-39 STM32G474RET3-PC7 CHF2 Passive 
+U11-40 SN74LVC16244ADGGR-2A2 Passive 
+)
+(
+MCU_CHC1 
+U3-38 STM32G474RET3-PC6 CHF1 Passive 
+U11-41 SN74LVC16244ADGGR-2A1 Passive 
+)
+(
+MCU_CHB2 
+U3-37 STM32G474RET3-PB15 CHD2 Passive 
+U11-43 SN74LVC16244ADGGR-1A4 Passive 
+)
+(
+MCU_CHB1 
+U3-36 STM32G474RET3-PB14 CHD1 Passive 
+U11-44 SN74LVC16244ADGGR-1A3 Passive 
+)
+(
+MCU_CHA2 
+U3-35 STM32G474RET3-PB13 CHC2 Passive 
+U11-46 SN74LVC16244ADGGR-1A2 Passive 
+)
+(
+MCU_CHA1 
+U3-34 STM32G474RET3-PB12 CHC1 Passive 
+U11-47 SN74LVC16244ADGGR-1A1 Passive 
+)
+(
+FLT_4 
+U3-33 STM32G474RET3-PB11 FLT4 Passive 
+U6-22 直贴2*20P主控焊盘-22 Passive 
+)
+(
+FLT_3 
+U3-30 STM32G474RET3-PB10 FLT3 Passive 
+U6-23 直贴2*20P主控焊盘-23 Passive 
+)
+(
+Vef3.3V 
+U3-29 STM32G474RET3-VDDA Passive 
+U3-28 STM32G474RET3-VREF+ Passive 
+R16-2 Res_0603-2 Input   
+C16-2 CAP_0603-2 Input   
+C15-2 CAP_0603-2 Input   
+)
+(
+PWM_OE1_N 
+U3-26 STM32G474RET3-PB2 ADC2_IN12/COMP4_INM/OPAMP3_INM/HRTIM_SCIN Passive 
+U11-1 SN74LVC16244ADGGR-1OE# Passive 
+R13-1 Res_0603-1 Input   
+)
+(
+9_ADC3_1 
+U3-25 STM32G474RET3-PB1 ADC3_IN1 Fast Passive 
+U6-29 直贴2*20P主控焊盘-29 Passive 
+)
+(
+FLT_5 
+U3-24 STM32G474RET3-PB0 FLT5 Passive 
+U6-24 直贴2*20P主控焊盘-24 Passive 
+)
+(
+GPIO_2 
+U3-23 STM32G474RET3-PC5 ADC2_IN11/OPAMP input/HRTIM_EEV10/USART1_RX Passive 
+U6-37 直贴2*20P主控焊盘-37 Passive 
+)
+(
+8_ADC2_5 
+U3-22 STM32G474RET3-PC4 ADC2_IN5 Fast Passive 
+U6-28 直贴2*20P主控焊盘-28 Passive 
+)
+(
+7_ADC2_4 
+U3-21 STM32G474RET3-PA7 ADC2_IN4 Fast Passive 
+U6-27 直贴2*20P主控焊盘-27 Passive 
+)
+(
+6_ADC2_3 
+U3-20 STM32G474RET3-PA6 ADC2_IN3 Fast Passive 
+U6-26 直贴2*20P主控焊盘-26 Passive 
+)
+(
+GPIO_1 
+U3-19 STM32G474RET3-PA5 ADC2_IN13/DAC1_OUT2/COMP2_INM/OPAMP2_VINM Passive 
+U6-38 直贴2*20P主控焊盘-38 Passive 
+)
+(
+5_ADC1_4 
+U3-17 STM32G474RET3-PA3 ADC1_IN4 Fast Passive 
+U6-25 直贴2*20P主控焊盘-25 Passive 
+)
+(
+4_ADC1_3 
+U3-14 STM32G474RET3-PA2 ADC1_IN3 Fast Passive 
+U6-30 直贴2*20P主控焊盘-30 Passive 
+)
+(
+3_ADC1_2 
+U3-13 STM32G474RET3-PA1 ADC1/2_IN2 Fast Passive 
+U6-31 直贴2*20P主控焊盘-31 Passive 
+)
+(
+2_ADC1_1 
+U3-12 STM32G474RET3-PA0 ADC1/2_IN1 Fast Passive 
+U6-32 直贴2*20P主控焊盘-32 Passive 
+)
+(
+GPIO_3 
+U3-11 STM32G474RET3-PC3 ADC1/2_IN9 Passive 
+U6-36 直贴2*20P主控焊盘-36 Passive 
+)
+(
+GPIO_4 
+U3-10 STM32G474RET3-PC2 ADC1/2_IN8 Passive 
+U6-35 直贴2*20P主控焊盘-35 Passive 
+)
+(
+1_ADC2_7 
+U3-9 STM32G474RET3-PC1 ADC1/2_IN7 Slow Passive 
+U6-33 直贴2*20P主控焊盘-33 Passive 
+)
+(
+0_ADC2_6 
+U3-8 STM32G474RET3-PC0 ADC1/2_IN6 Slow Passive 
+U6-34 直贴2*20P主控焊盘-34 Passive 
+)
+(
+NRST 
+U3-7 STM32G474RET3-PG10-NRST Passive 
+SW1-2 HX 3x4x2-2P-2.5N-2 Passive 
+C5-2 CAP_0603-2 Input   
+U12-3 HC-XH-5AW-TW-3 Passive 
+)
+(
+$1N166 
+U3-6 STM32G474RET3-PF1-OSC_OUT Passive 
+X1-1 TAXM8M4RDBCCT2T-1 Input   
+C9-2 CAP_0603-2 Input   
+)
+(
+$1N165 
+U3-5 STM32G474RET3-PF0-OSC_IN Passive 
+X1-3 TAXM8M4RDBCCT2T-3 Input   
+C8-2 CAP_0603-2 Input   
+)
+(
+PWM_OE2_N 
+U3-4 STM32G474RET3-PC15-OSC32_OUT Passive 
+U11-48 SN74LVC16244ADGGR-2OE# Passive 
+R12-1 Res_0603-1 Input   
+)
+(
+PWM_OE3_N 
+U3-3 STM32G474RET3-PC14-OSC32_IN Passive 
+U11-25 SN74LVC16244ADGGR-3OE# Passive 
+R14-1 Res_0603-1 Input   
+)
+(
+RGB 
+U3-2 STM32G474RET3-PC13 FLASH_CS Passive 
+LED1-3 WS2812B-2020-V6-DI Passive 
+)
+(
+$1N36 
+U1-3 W25Q128JVSIQ_C113767-WP#(IO2) Passive 
+R4-1 Res_0603-1 Input   
+)
+(
+$1N33 
+U1-7 W25Q128JVSIQ_C113767-HOLD#orRESET#(IO3) Passive 
+R3-1 Res_0603-1 Input   
+)
+(
+$1N25 
+U2-3 VTI7064MSME-SIO2 Passive 
+R1-2 Res_0603-2 Input   
+)
+(
+$1N24 
+U2-7 VTI7064MSME-SIO3 Passive 
+R2-1 Res_0603-1 Input   
+)
+(
+D+ 
+U4-1 CH340E-UD+ Passive 
+USB1-A6 TYPE-C 16PIN 2MD(073)-Dp1 Passive 
+USB1-B6 TYPE-C 16PIN 2MD(073)-Dp2 Passive 
+)
+(
+D- 
+U4-2 CH340E-UD- Passive 
+USB1-B7 TYPE-C 16PIN 2MD(073)-Dn2 Passive 
+USB1-A7 TYPE-C 16PIN 2MD(073)-Dn1 Passive 
+)
+(
+Type_5V 
+U4-7 CH340E-VCC Passive 
+USB1-A4B9 TYPE-C 16PIN 2MD(073)-VBUS Passive 
+USB1-B4A9 TYPE-C 16PIN 2MD(073)-VBUS Passive 
+C3-2 CAP_0603-2 Input   
+LED1-4 WS2812B-2020-V6-VDD Passive 
+U5-3 XC6206P332MR_C347376-VIN Passive 
+C7-1 CAP_0603-1 Input   
+)
+(
+$1N44 
+U4-10 CH340E-V3 Passive 
+C4-1 CAP_0603-1 Input   
+)
+(
+$1N49 
+USB1-A5 TYPE-C 16PIN 2MD(073)-CC1 Passive 
+R8-2 Res_0603-2 Input   
+)
+(
+$1N50 
+USB1-B5 TYPE-C 16PIN 2MD(073)-CC2 Passive 
+R7-2 Res_0603-2 Input   
+)
+(
+SDIO 
+R9-2 Res_0603-2 Input   
+U12-4 HC-XH-5AW-TW-4 Passive 
+)
+(
+SCLK 
+R10-2 Res_0603-2 Input   
+U12-5 HC-XH-5AW-TW-5 Passive 
+)
+(
+CHA1 
+U6-2 直贴2*20P主控焊盘-2 Passive 
+U11-2 SN74LVC16244ADGGR-1Y1 Passive 
+)
+(
+CHA2 
+U6-3 直贴2*20P主控焊盘-3 Passive 
+U11-3 SN74LVC16244ADGGR-1Y2 Passive 
+)
+(
+CHB1 
+U6-4 直贴2*20P主控焊盘-4 Passive 
+U11-5 SN74LVC16244ADGGR-1Y3 Passive 
+)
+(
+CHB2 
+U6-5 直贴2*20P主控焊盘-5 Passive 
+U11-6 SN74LVC16244ADGGR-1Y4 Passive 
+)
+(
+CHC1 
+U6-6 直贴2*20P主控焊盘-6 Passive 
+U11-8 SN74LVC16244ADGGR-2Y1 Passive 
+)
+(
+CHC2 
+U6-7 直贴2*20P主控焊盘-7 Passive 
+U11-9 SN74LVC16244ADGGR-2Y2 Passive 
+)
+(
+CHD1 
+U6-8 直贴2*20P主控焊盘-8 Passive 
+U11-11 SN74LVC16244ADGGR-2Y3 Passive 
+)
+(
+CHD2 
+U6-9 直贴2*20P主控焊盘-9 Passive 
+U11-12 SN74LVC16244ADGGR-2Y4 Passive 
+)
+(
+CHE1 
+U6-10 直贴2*20P主控焊盘-10 Passive 
+U11-13 SN74LVC16244ADGGR-3Y1 Passive 
+)
+(
+CHE2 
+U6-11 直贴2*20P主控焊盘-11 Passive 
+U11-14 SN74LVC16244ADGGR-3Y2 Passive 
+)
+(
+CHF1 
+U6-12 直贴2*20P主控焊盘-12 Passive 
+U11-16 SN74LVC16244ADGGR-3Y3 Passive 
+)
+(
+CHF2 
+U6-13 直贴2*20P主控焊盘-13 Passive 
+U11-17 SN74LVC16244ADGGR-3Y4 Passive 
+)
+(
+$1N164 
+U11-24 SN74LVC16244ADGGR-4OE# Passive 
+R15-1 Res_0603-1 Input   
+)

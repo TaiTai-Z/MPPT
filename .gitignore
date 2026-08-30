@@ -1,0 +1,14 @@
+# Keil and compiler-generated files
+**/Out/
+**/*.o
+**/*.d
+**/*.axf
+**/*.hex
+**/*.map
+**/*.htm
+**/*.lnp
+**/*.dep
+**/__pycache__/
+
+# User-specific Keil UI state
+**/*.uvguix.*

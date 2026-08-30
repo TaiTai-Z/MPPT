@@ -1,2 +1,54 @@
-# MPPT
-用来撰写我的RT-Thread的STM32G474CBT6代码
+# MPPT digital power controller
+
+This repository contains the maintained STM32G474 RT-Thread controller project
+for the MPPT power stage.
+
+## Current baseline
+
+- MCU: STM32G474RBT3, 128-KiB Flash, 96-KiB main SRAM plus 32-KiB CCM SRAM.
+- Firmware: `STM32G474RBT3_RTThread_Safe_v2.3.0`.
+- RT-Thread is vendored under `firmware/STM32G474RBT3_RTThread_Safe_v2.3.0/third_party/rt-thread`.
+- Current power-board profile uses external hardware protection. Firmware still
+  keeps ADC software OVP/OCP/OTP, sampling watchdog, duty and bus-build limits,
+  and starts with all power outputs disabled.
+
+## Repository layout
+
+- `firmware/STM32G474RBT3_RTThread_Safe_v2.3.0/`: Keil project and complete
+  source tree, including CMSIS, RT-Thread, board drivers, tests and build tools.
+- `firmware/STM32G474RBT3_RTThread_Safe_v2.3.0/hardware/netlists/`: netlists
+  associated with the maintained firmware baseline. The active pair is
+  `Netlist_474控制板_2026-08-28.net` plus
+  `Netlist_非同步功率板_2026-08-28.net`; the older power-board and synchronous
+  half-bridge files are retained as reference history.
+- `docs/logs/remade_master.md`: single chronological engineering log. Every
+  code, build, flash or bench-test change must be appended here.
+- `docs/build-logs/`: raw Keil build and ST-LINK command-line logs.
+- `docs/MAINTENANCE.md`: contribution and verification checklist.
+
+## Build and flash
+
+Run from the firmware directory in a PowerShell prompt:
+
+```text
+tools\check_project.bat
+tools\build_keil.bat
+tools\flash_keil.bat
+```
+
+The scripts use `D:\Keil\Keil\UV4\UV4.exe` when available and run without
+opening the Keil GUI. Flashing only programs and resets the MCU; it does not
+automatically enable the power stage.
+
+## Serial commands
+
+- `STATUS`, `CONTROL`, `HRTIMDIAG`: diagnostics.
+- `MPPT AUTO` or `START 150`: qualified 150-V MPPT start.
+- `START 100..400`: qualified start with an explicit bus target.
+- `STOP` or `MPPT DISARM`: disable PWM, gate inhibit and auxiliary request.
+- `HELP`: firmware command summary.
+
+Before a high-energy test, use a current-limited low-voltage source, verify the
+external protection chain and probe PWM with suitable isolation and differential
+measurement. Do not treat a successful flash or a command reply as proof that
+the power stage is safe to energize.
